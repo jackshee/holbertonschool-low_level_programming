@@ -1,5 +1,5 @@
 /**
- * mul - multiplies two integers 
+ * mul - multiplies two integers
  * @a: integer
  * @b: integer
  *
