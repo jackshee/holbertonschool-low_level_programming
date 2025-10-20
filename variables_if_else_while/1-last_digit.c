@@ -17,11 +17,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* use modulo 10 to get last digit (remainder) */
-	/* last_digit = abs(n) % 10;*/
-	if (n >= 0)
-		last_digit = n % 10;
-	else
-		last_digit = (-n) % 10;
+	last_digit = abs(n) % 10;
 
 	if (last_digit > 5)
 		output_str = " and is greater than 5";
