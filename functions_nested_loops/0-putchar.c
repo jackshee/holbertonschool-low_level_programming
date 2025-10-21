@@ -1,6 +1,6 @@
 #include <stdio.h>
+#include <main.h>
 
-int _putchar(char c);
 /**
  * main - Entry
  *
@@ -12,7 +12,7 @@ int main(void)
 	char *string_literal;
 	int i;
 
-	string_literal = "_putchar";
+	string_literal = "_putchar\n";
 	i = 0;
 
 	while (string_literal[i] != '\0')
